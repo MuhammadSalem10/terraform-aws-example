@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "ami_id" {
   description = "AMI ID for EC2 instance"
   type        = string
-  default     = "ami-0c55b159cbfafe1f0" # Ubuntu Server 20.04 LTS (HVM), SSD Volume Type
+  default     = "ami-0f88e80871fd81e91"
 }
 
 variable "instance_type" {
